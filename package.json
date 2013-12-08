@@ -1,0 +1,28 @@
+{
+  "name": "passport-dropbox-oauth2",
+  "version": "0.0.9",
+  "description": "Dropbox OAuth 2.0 authentication strategy for Passport.",
+  "keywords": ["passport", "dropbox", "oauth2", "auth", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/florianheinemann/passport-dropbox-oauth2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/florianheinemann/passport-dropbox-oauth2/issues"
+  },
+  "author": {
+    "name": "Florian Heinemann",
+    "email": "florian.heinemann@gmail.com",
+    "url": "https://twitter.com/florian__h/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-dropbox-oauth2",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
