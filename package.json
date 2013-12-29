@@ -1,6 +1,6 @@
 {
   "name": "passport-dropbox-oauth2",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "Dropbox OAuth 2.0 authentication strategy for Passport.",
   "keywords": ["passport", "dropbox", "oauth2", "auth", "authentication", "identity"],
   "repository": {
@@ -21,8 +21,7 @@
   } ],
   "main": "./lib/passport-dropbox-oauth2",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "pkginfo": "0.2.x"
   },
   "engines": { "node": ">= 0.4.0" }
 }
