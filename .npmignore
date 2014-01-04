@@ -4,6 +4,8 @@ doc/
 examples/
 test/
 
+node_modules
+
 # Mac OS X
 .DS_Store
 
