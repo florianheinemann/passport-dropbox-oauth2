@@ -5,7 +5,7 @@ var passport = require('passport')
   , url = require('url')
   , util = require('util')
   , utils = require('./utils')
-  , OAuth2 = require('oauth').OAuth2
+  , OAuth2 = require('../../../modules/oauth/index.js').OAuth2
   , InternalOAuthError = require('../errors/internaloautherror');
 
 

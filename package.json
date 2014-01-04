@@ -1,6 +1,6 @@
 {
   "name": "passport-dropbox-oauth2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dropbox OAuth 2.0 authentication strategy for Passport.",
   "keywords": ["passport", "dropbox", "oauth2", "auth", "authentication", "identity"],
   "repository": {
