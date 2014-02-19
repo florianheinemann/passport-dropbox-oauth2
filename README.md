@@ -23,8 +23,8 @@ these credentials and calls `done` providing a user, as well as `options`
 specifying a client ID, client secret, and callback URL.
 
     passport.use(new DropboxOAuth2Strategy({
-        clientID: GITHUB_CLIENT_ID,
-        clientSecret: GITHUB_CLIENT_SECRET,
+        clientID: DROPBOX_CLIENT_ID,
+        clientSecret: DROPBOX_CLIENT_SECRET,
         callbackURL: "https://www.example.net/auth/dropbox-oauth2/callback"
       },
       function(accessToken, refreshToken, profile, done) {
