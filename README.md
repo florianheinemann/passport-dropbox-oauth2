@@ -72,5 +72,5 @@ Tests not yet provided
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2013-2014 Florian Heinemann <[http://twitter.com/florian__h/](http://twitter.com/florian__h/)>
+Copyright (c) 2013-2014 Florian Heinemann [http://twitter.com/florian__h/](http://twitter.com/florian__h/)
 
