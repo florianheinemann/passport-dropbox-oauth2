@@ -1,5 +1,4 @@
 # Passport-Dropbox-OAuth2
-
 [Passport](http://passportjs.org/) strategy for authenticating with [Dropbox](https://dropbox.com/)
 using the OAuth 2.0 API.
 
@@ -10,11 +9,9 @@ unobtrusively integrated into any application or framework that supports
 [Express](http://expressjs.com/).
 
 ## Install
-
     $ npm install passport-dropbox-oauth2
 
 ## Usage
-
 #### Configure Strategy
 
 The Dropbox authentication strategy authenticates users using a Dropbox account
@@ -35,7 +32,6 @@ specifying a client ID, client secret, and callback URL.
     ));
 
 #### Authenticate Requests
-
 Use `passport.authenticate()`, specifying the `'dropbox-oauth2'` strategy, to
 authenticate requests.
 
@@ -53,24 +49,16 @@ application:
       });
 
 ## Examples
-
 Examples not yet provided
 
 ## Tests
-
 Tests not yet provided
 
 
-## Credits
+## Prior work
+This strategy is based on Jared Hanson's GitHub strategy for passport: [Jared Hanson](http://github.com/jaredhanson)
 
-  - [Florian Heinemann](http://twitter.com/TheSumOfAll/)
+### Credits and License
+express-sslify is licensed under the MIT license. If you'd like to be informed about new projects follow  [@TheSumOfAll](http://twitter.com/TheSumOfAll/).
 
-  This strategy is based on Jared Hanson's GitHub strategy for passport:  
-  - [Jared Hanson](http://github.com/jaredhanson)
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2013-2014 Florian Heinemann [http://twitter.com/florian__h/](http://twitter.com/florian__h/)
-
+Copyright (c) 2013-2014 Florian Heinemann
