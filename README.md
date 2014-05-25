@@ -63,7 +63,7 @@ Tests not yet provided
 
 ## Credits
 
-  - [Florian Heinemann](http://twitter.com/florian__h/)
+  - [Florian Heinemann](http://twitter.com/TheSumOfAll/)
 
   This strategy is based on Jared Hanson's GitHub strategy for passport:  
   - [Jared Hanson](http://github.com/jaredhanson)
