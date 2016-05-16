@@ -17,9 +17,11 @@ unobtrusively integrated into any application or framework that supports
 The Dropbox authentication strategy authenticates users using a Dropbox account
 and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which accepts
 these credentials and calls `done` providing a user, as well as `options`
-specifying a client ID, client secret, and callback URL.
+specifying a API version, client ID, client secret, and callback URL. The library
+defaults to version 1 of Dropbox's API.
 
     passport.use(new DropboxOAuth2Strategy({
+        apiVersion: '2',
         clientID: DROPBOX_CLIENT_ID,
         clientSecret: DROPBOX_CLIENT_SECRET,
         callbackURL: "https://www.example.net/auth/dropbox-oauth2/callback"
